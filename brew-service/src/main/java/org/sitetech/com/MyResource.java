@@ -52,6 +52,7 @@ public class MyResource {
 
         List<Object> result = new ArrayList<Object>();
         for (QueryDocumentSnapshot document : documents) {
+            
             Weeks entry = document.toObject(Weeks.class);
             System.out.println(entry.toString());
             result.add(entry);
