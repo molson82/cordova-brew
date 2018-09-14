@@ -1,0 +1,4 @@
+#Wed Sep 12 14:08:21 EDT 2018
+base.0=/Users/will/Documents/Coding Projects/GitHub/gaby/brew-hybrid/platforms/android/app/build/intermediates/transforms/dexMerger/debug/0
+renamed.0=classes.dex
+file.0=/Users/will/Documents/Coding Projects/GitHub/gaby/brew-hybrid/platforms/android/app/build/intermediates/transforms/dexMerger/debug/0/classes.dex

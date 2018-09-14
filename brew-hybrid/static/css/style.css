@@ -1,0 +1,175 @@
+body {
+    -webkit-touch-callout: none; /* prevent callout to copy image, etc when tap to hold */
+    -webkit-text-size-adjust: none; /* prevent webkit from resizing text to fit */
+    -webkit-user-select: text; /* prevent copy paste, to allow, change 'none' to 'text' */
+    background-color: #bdbdbd;
+    font-family: "HelveticaNeue-Light", "HelveticaNeue", Helvetica, Arial, sans-serif;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+    width: 100%;
+}
+
+.sidenav {
+    width: 255px;
+}
+
+.secondary-text {
+    background-color: #757575;
+}
+
+.dark-primary {
+    background-color: #303f9f;
+}
+
+.light-primary {
+    background-color: #c5cae9;
+}
+
+.primary-color {
+    background-color: #3f51b5;
+}
+
+.profile-btn {
+    float: right;
+    margin-top: 8px;
+    margin-right: 19px;
+}
+
+.hours-panel {
+    height: 100px;
+    text-align: center;
+    color: #ffffff;
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    align-items: center;
+    padding-right: 60px;
+    padding-left: 60px;
+    padding-bottom: 10px;
+}
+
+.week-panel {
+    height: 60px;
+    color: #212121;
+    display: inline-grid;
+    grid-template-columns: 40px auto;
+    align-items: center;
+}
+
+.money-panel {
+    height: 60px;
+    color: #212121;
+    display: inline-grid;
+    grid-template-columns: 25px auto;
+    align-items: center;
+}
+
+.week-value {
+    font-size: 17px;
+    text-align: left;
+}
+
+.day-value {
+    font-size: 17px;
+}
+
+.whole-panel {
+    width: calc(50% - 1px);
+    text-align: center;
+    background-color: #ffffff;
+}
+
+.carousel.carousel-slider .carousel-item {
+    height: 160px;
+    min-height: 0px;
+}
+
+.carousel .indicators {
+    position: absolute;
+    text-align: center;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    top: 121px;
+    margin: 0;
+}
+
+.notes-frame {
+    width: 100%;
+    height: 70%;
+    background-color: #bdbdbd;
+    overflow: auto;
+    margin-top: 10px;
+    border-color: red;
+}
+
+::placeholder {
+    color: #757575;
+}
+
+.input-field > label {
+    color: #212121;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.add-frame {
+    width: auto;
+    height: 25%;
+    margin-right: 10px;
+}
+
+.add-form {
+    background-color: white;
+    border-radius: 8px;
+    margin-top: 20px;
+    margin-right: 10px;
+    margin-left: 10px;
+}
+
+.form-buttons {
+    display: grid;
+    grid-template-columns: 40% 40%;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.bottom-panels {
+    width: 100%;
+    position: absolute;
+    height: calc(100% - 376px);
+    bottom: 0;
+}
+
+.calendar-panel {
+    width: 100%;
+    height: 100%;
+    padding: 2px;
+}
+
+.changeWeek {
+    background-color: white;
+    height: 100%;
+    margin-top: -7px;
+}
+
+.collection .collection-item.active {
+    background-color: #4CAF50;
+}
+
+.collection a.collection-item {
+    color: #212121;
+}
+
+#money {
+    margin-top: -60px;
+}
+
+/* Landscape layout (with min-width) */
+@media screen and (min-aspect-ratio: 1/1) and (min-width: 400px) {
+    .bottom-panels {
+        width: 100%;
+        position: relative;
+        height: 255px;
+    }
+}

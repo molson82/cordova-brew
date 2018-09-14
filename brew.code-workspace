@@ -1,0 +1,16 @@
+{
+	"folders": [
+		{
+			"path": "brew/brew"
+		},
+		{
+			"path": "brew-service"
+		},
+		{
+			"path": "brew-hybrid"
+		}
+	],
+	"settings": {
+		"java.configuration.updateBuildConfiguration": "automatic"
+	}
+}
